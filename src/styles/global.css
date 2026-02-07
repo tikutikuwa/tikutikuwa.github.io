@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
+}
+
+main {
+    max-width: var(--content);
+    margin: 0 auto;
+    padding: var(--s8) var(--s4);
+}
+
+a {
+    color: var(--accent);
+}
